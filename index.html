@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>VSOM - Azure Functions Demo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.3.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">VSOM - Azure API Demo</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Projektikuvaus</a></li>
+          <li><a class="nav-link scrollto" href="#arkkitehtuuri">Arkkitehtuuri</a></li>
+          <li><a class="nav-link scrollto" href="#kuvaus">Kuvaus</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Kuvat</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Demot</a></li>
+          <li class="dropdown"><a href="#services"><span>Tehdyt API-Rajapinnat</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#services">Matkat</a></li>
+              <li class="dropdown"><a href="#"><span>MultitietoAPI</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#services">Sää</a></li>
+                  <li><a href="#services">Matka</a></li>
+                  <li><a href="#services">Kulutus</a></li>
+                  <li><a href="#services">Ravinto</a></li>
+                  <li><a href="#services">Hiili</a></li>
+                </ul>
+              </li>
+              <li><a href="#services">Sää</a></li>
+              <li><a href="#services">Hiilijalanjälki</a></li>
+              <li><a href="#services">Kissat</a></li>
+              <li><a href="#services">Koirat</a></li>
+              <li><a href="#services">Ahti</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#otayhteytta">Ota yhteyttä</a></li>
+          <li><a class="getstarted scrollto" href="#root">Demoon heti nyt!</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Azure-projekti avuksi maiseman vaihtoon.</h1>
+          <h2>Myös niille, joilla on mielipide kissoista tai koirista.<br><br>
+            API Management, Functions APP, Logic APP, Terraform, Cosmos DB, 
+            Python, HTML, HTTP, Postman, VSCode, Key Vault, Bootstrap, Javascript, CSS, React, jne.
+          </h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Let's mennään</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-9.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-10.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-11.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-12.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projektikuvaus</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              <h1>Projektissa olevat palikat (suuntaa antava):</h1><br>
+              1. API Management + FunctionsApprajapinta, jonkaavulla prosessoituadataa voidaan tarjotamuille
+palveluille. (Näitämuitapalveluita ei tarvitse toteuttaa, mutta voi.)<br>
+2. ⭐Prosessoituadataa voidaan mahdollisestitallettaaCosmos DB kantaanja/tai hakea myössieltä.<br>
+3. Ulkoinendatanlähde(lähteet), josta dataa haetaan, täälläon hyviä vaihtoehtoja:<br>
+− https://github.com/public-apis/public-apis<br>
+4. Jokinprosessi joka rakennettu event based arkkitehtuurillaja orkestroitu Logic app palvelulla. <br>
+(esim. Sähköpostinlähettäminenadmin mailiin, kun)<br>
+5. ⭐OsapalveluistamahdollisestiprovisioituTerraformilla.<br>
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Vahvistaa osaamista aiemmin käsiteltyjen teknologioiden osalta</li>
+              <li><i class="ri-check-double-line"></i> Oppia uutta</li>
+              <li><i class="ri-check-double-line"></i> Vahvistaa ryhmätyötaitoja projektissa</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Perjantina esittely kuten aiemmin<br>
+              - Vaatimukset: Arkkitehtuurikaavio, opit, onnistumiset ja haasteet
+            </p>
+            <a href="#arkkitehtuuri" class="btn-learn-more">Eteenpäin!</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="arkkitehtuuri" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>Arkkitehtuuri yhdistää <strong>Azuren sisällä useita palveluita ja tarjoaa lisäarvoa käsittelemällä avoimia API-rajanpintoja</strong></h3>
+              <p>
+                  Salaisuudet Keyvaultissa, Functiin APP funktiot tarjoillaa apimanagementin avulla eteenpäin. Data on tallessa Cosmos DB:ssä. Frontend ratkaisut tehty Flaskia ja Bootstrap templatea käyttäen, jonne on lisätty hieman javascriptiä, reactia ja tyylittelyjä. Toivottavasti nautitte!
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Web sivuja kahdella tapaa <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                        Rakensimme kaksi demoa Flaskille pythonilla ja tämän esityksen Bootstrap templatella ja lopussa olevan demon Reactilla.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Api rajapinnoista vain Jsonia <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                    Halusimme varmistaa, että jokainen rajapinta tarjoaa mahdollisimman paljon käyttäjilleen ja siksi rajapinta on tehy jsonilla. Funktiot toimivat Azuren Function Appilla ja API Management tarjoaa ne käyttäjille.  
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Tietoturva ja Laajennettavuus keskiössä<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Tietoturva oli läpi projektin jokaisen iteraation mielessä ja salaisuudet visusti keyvaultissa, eikä niitä säilytetä missään sen ulkopuolella. Laajennettavuutta tarjoaa Cosmos DB, jonne nyt tallennetaan koirien ja kissojen äänet. Ehkä jatkossa myös muiden eläinten.  
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/projekti1.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="kuvaus" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/projekti2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Opit, haasteet, jne</h3>
+            <p class="fst-italic">
+              Oppimismittari
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">Json käsittely <i class="val">79%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">API Management <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Python koodi<i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Ryhmätyöskentely <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>API rajapinnat</h2>
+          <p>Teimme rajapintoja tarjoamaan arvoa käyttäjille. Lisää tietoa alla.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Välimatkan haku</a></h4>
+              <p>Palauttaa Bingmapsin tarjoamat tiedot kahden käyttäjän syöttämän paikkakunnan välille</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Sää</a></h4>
+              <p>Kertoo sään kahden käyttäjän syöttämän kaupungin perusteella
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Välimatka/Sää</a></h4>
+              <p>Funktio, joka yhdistää välimatkan haun ja sään. Välimatkasta palautetaan matka ja aika.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Cats and Dogs</a></h4>
+              <p>Noutaa sattumanvaraisen kuvan kissasta ja koirasta, jotka sovellus näyttää</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Äänestys</a></h4>
+              <p>Tallentaa sovelluksessa käyttäjän antaman äänen Cosmos Databaseen</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">AhtiFact</a></h4>
+              <p>Noutaa Chuck Norris -faktan muutetulla nimellä. Fakta näytetään ja luetaan sovelluksessa.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">AhtiWeather</a></h4>
+              <p>Palauttaa Kellokosken säätiedon</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Etkö malta odottaa demoa?</h3>
+            <p>Emme mekään. Hyppää suoraan demoon tästä. Päätimme tällä kertaa rakentaa kolmiosaisen projektin, joten tutustuthan niistä jokaiseen!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#root">Hyppää Demoon!</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projekti kuvina</h2>
+          <p>Pikaiselle visuaalisella katsauksella saat hyvin kuvan siitä mitä tässä projektissa on tehty. Kolmessa eri toimminnallisuudessa on hyvin eri lähtökohdat ja niihin on käytetty laaja valikoima erilaisia välineitä</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">KissatVSKoiratApp</li>
+          <li data-filter=".filter-card">MatkaApp</li>
+          <li data-filter=".filter-web">Ahti</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/kissa.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>KissatVSKoiratApp 1</h4>
+              <p>KissatVSKoiratApp</p>
+              <a href="assets/img/portfolio/kissa.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="KissatVSKoiratApp 1"><i class="bx bx-plus"></i></a>
+              <a href="https://catsvsdogsapp.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ahti.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Ahti 3</h4>
+              <p>Ahti</p>
+              <a href="assets/img/portfolio/ahti.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ahti 3"><i class="bx bx-plus"></i></a>
+              <a href="https://ahtifacts.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/koira.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>KissatVSKoiratApp 2</h4>
+              <p>KissatVSKoiratApp</p>
+              <a href="assets/img/portfolio/koira.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="KissatVSKoiratApp 2"><i class="bx bx-plus"></i></a>
+              <a href="https://catsvsdogsapp.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/bing.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MatkaApp 2</h4>
+              <p>MatkaApp</p>
+              <a href="assets/img/portfolio/bing.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MatkaApp 2"><i class="bx bx-plus"></i></a>
+              <a href="#root" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ahti2.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Ahti 2</h4>
+              <p>Ahti</p>
+              <a href="assets/img/portfolio/ahti2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ahti 2"><i class="bx bx-plus"></i></a>
+              <a href="https://ahtifacts.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/cosmosdb.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>KissatVSKoiratApp 3</h4>
+              <p>KissatVSKoiratApp</p>
+              <a href="assets/img/portfolio/cosmosdb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="KissatVSKoiratApp 3"><i class="bx bx-plus"></i></a>
+              <a href="https://catsvsdogsapp.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/hiilijalka.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MatkaApp 1</h4>
+              <p>MatkaApp</p>
+              <a href="assets/img/portfolio/hiilijalka.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MatkaApp 1"><i class="bx bx-plus"></i></a>
+              <a href="#root" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/openweatherapp.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>MatkaApp 3</h4>
+              <p>MatkaApp</p>
+              <a href="assets/img/portfolio/openweatherapp.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="MatkaApp 3"><i class="bx bx-plus"></i></a>
+              <a href="#root" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ahti3.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Ahti 3</h4>
+              <p>Ahti</p>
+              <a href="assets/img/portfolio/ahti3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ahti 3"><i class="bx bx-plus"></i></a>
+              <a href="https://ahtifacts.azurewebsites.net" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Arpa toi yhteen seuraavat henkilöt</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-5.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mikko Pekkanen</h4>
+                <span>Frontend spesialisti</span>
+                <p>Olet ehkä kuullut Ahti äpistä tai KISSATvsKOIRAT kilpailusta? Sen herkun teille on tuonut Mikko</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/team-7.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ville-Petteri Säily</h4>
+                <span>Vastuullisuus ja Logistiikka</span>
+                <p>Jos mietit miten päästä mihinkään tai kuinka paljon se kuluttaa luontoa, voit lopettaa etsinnät</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sami Säkkinen</h4>
+                <span>Backend sää, kuva ja Cosmos DB velho</span>
+                <p>Sami kertoo sään ja näyttää samalla kuvia kissoista ja koirista tallentaen mielipiteesi tietokantaan</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/team-6.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Olli Uronen</h4>
+                <span>Frontti, ötökät ja salaisuudet</span>
+                <p>Hän piilottaa salaisuudet ja tappaa vipeltävät ötökät näppäimistöllään</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Appien Esittely</h2>
+          <p>Alan huipputekniikkaa hyödyntävät äppimme toimivat uusimmalla pilviteknologialla, jotta arkeasi olisi sujuvampaa ja tylsät hetkesi vähemmän tylsiä. Halusimmi huipputiimillämme tuoda asiakkaille ainutlaatuiset äpit kuluttajanne ulottuville. Tarkastele vaihtoehtoja ja muista kertoa kaverille! </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Matka App</h3>
+              <h4><sup>%</sup>100<span>Hyötyä ja infoa</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i>Matkatietoja</li>
+                <li><i class="bx bx-check"></i>Säätiedot</li>
+                <li><i class="bx bx-check"></i>Kaikki tiedot yhdestä VSOM rajapinnasta</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Kissoja ja Koiria</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Ahti</span></li>
+              </ul>
+              <a href="#root" class="buy-btn">Matka Demoon!</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>KissatVsKoirat App</h3>
+              <h4><sup>⭐</sup>500<span>Kissaa ja koiraa</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Kissoja</li>
+                <li><i class="bx bx-check"></i> Koiria</li>
+                <li><i class="bx bx-check"></i> Statistiikat cosmos DB:ssä</li>
+                <li><i class="bx bx-check"></i> Vaikuta äänelläsi</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Ahti</span></li>
+              </ul>
+              <a href="https://catsvsdogsapp.azurewebsites.net" class="buy-btn">Äänestys Demoon!</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Ahti App</h3>
+              <h4><sup>%</sup>1000<span>Ahti</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Ahti</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Chuck Norrisia</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Matka appia</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Kissoja</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Koiria</span></li>
+              </ul>
+              <a href="https://ahfacts.azurewebsites.net/" class="buy-btn">Ahti Facts</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Ahti Questions</h2>
+          <p>Some of the things we all wonder are answered here</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Voiko Ahdin ihoa läpäistä? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Its widely believed that Jesus was Ahti s stunt double for crucifixion due to the fact that it is impossible for nails to pierce Ahti s skin.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Miten Kiinan muuri liityy Ahtiin? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The Great Wall of China was originally created to keep Ahti  out. It failed miserably.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Osaako Ahti pelata perinteisiä pelejä? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Ahti  once won a game of connect four in 3 moves.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Kuinka monta punnerrusta Ahti pystyy tekemään?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Kaikki.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Miksi kellokoskella upload on nopeampi kuin download? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Ahti 's Internet connection is faster upstream than downstream because even data has more incentive to run from him than to him.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="otayhteytta" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Ota yhteyttä</h2>
+          <p>Tai mielummin älä. Jos otat, niin et aja. Varsinkin kehitysideat ja rakentavan palautteen voi kirjoittaa paperille, kääriä pieneen palloon ja hävittää haluamallaan tavalla. </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Sijainti:</h4>
+                <p>Internet portti 80, 8080 Tuusula</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Säpö:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Puhelin:</h4>
+                <p>+11223344556677889900</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1963.5050603100647!2d25.11491571628341!3d60.519393082091014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e010ba5d0115b%3A0x68b52bf3d4829287!2sAhti%20Haukilehto%20Consulting%20Oy!5e0!3m2!1sen!2sfi!4v1647985288384!5m2!1sen!2sfi" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+ 
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button  type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+      </section><!-- End Contact Section -->
+      <!-- ======= Meidän demo Section ======= -->
+    <section id="demo" class="contact">
+        <div id="root"class="row">
+        </section><!-- End demo Section -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+      
+    const Weather = () => {
+         const [temp, setTemp] = React.useState('');
+         const [weather, setWeather] = React.useState('');
+         const [img, setImg] = React.useState('');
+         const [wCity, setWCity] = React.useState('');
+         const [city, setCity] = React.useState('Kellokoski'); 
+         const [temp2, setTemp2] = React.useState('');
+         const [weather2, setWeather2] = React.useState('');
+         const [img2, setImg2] = React.useState('');
+         const [wCity2, setWCity2] = React.useState('');
+         const [textsaa, setTextsaa] = React.useState('');
+         const [textlampo, setTextlampo] = React.useState('');
+         const [textc, setTextC] = React.useState('');
+         const [valimatka, setValimatka] = React.useState('');
+         const [matka, setMatka] = React.useState('');
+         const [hiili, setHiili] = React.useState('');
+         const [kesto, setKesto] = React.useState('');
+         const [kalorit, setKalorit] = React.useState('');
+         const [oluet, setOluet] = React.useState('');
+         const [ravitsemus, setRavitsemus] = React.useState('');
+         const [city2, setCity2] = React.useState('Oulu'); 
+         const [url, setUrl] = React.useState('');
+                
+        const inputChanged = (event) => {
+            setCity(event.target.value);
+        }
+        const inputChanged2 = (event) => {
+            setCity2(event.target.value);
+        }
+
+        React.useEffect(() => {
+          setUrl('https://vsom.azurewebsites.net/api/etaisuussaa/'+city+'/'+city2);
+        }, [city,city2]);
+
+        const getMatka = () => {
+            fetch(url)
+            .then(response => response.json())
+            .then(responseData => {
+                console.log(responseData);
+                setTemp(responseData.kaupunki0.lampotila);
+                setWeather(responseData.kaupunki0.kuvaus);
+                setWCity(responseData.kaupunki0.nimi);
+                setImg(responseData.kaupunki0.ikoni)
+                setTemp2(responseData.kaupunki1.lampotila);
+                setWeather2(responseData.kaupunki1.kuvaus);
+                setWCity2(responseData.kaupunki1.nimi);      
+                setValimatka(responseData.extrat.valimatka);
+                setKesto(responseData.extrat.kesto);     
+                setKalorit(responseData.extrat.kaloreita);
+                setOluet(responseData.extrat.olutta);     
+                setHiili(responseData.extrat.hiilijalanjalki);                     
+                setRavitsemus("Ravitsemus- ja ympäristötietoa");           
+                setMatka("Tietoa kävelystäsi");              
+                setTextsaa("sää");
+                setTextlampo("Lämpötila:");
+                setTextC("c");
+                setImg2(responseData.kaupunki1.ikoni)
+            });
+        } 
+                
+         return (
+          <div>   
+            
+     
+              <div className="section-title">
+          <h2>DEMO!<br></br>-----<br></br>Mistä ja minne haluat mennä?</h2>
+          <p>Tässä demossa me käytämme sää apia, jolla haetaan kaksi säätietoa openweathermap apista. Bingi tarjoaa meille tietoa matkan pituudesta ja kestosta kävellen. Lisäksi funktio laskee ravitsemustietoa ja lisää käyttäjän tietoisuutta ympäristöasioista.</p>
+        </div>       
+                
+            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+              <div className="row">
+                <div className="form-group col-md-6">
+                  <label htmlFor="name">Mistä kaupungista</label>
+                  <input type="text" name="city" 
+                value={city} onChange={inputChanged}
+                 className="form-control" id="city" required/>
+                </div>
+                <div className="form-group col-md-6">
+                  <label htmlFor="name">Mihin kaupunkiin</label>
+                  <input type="text" name="city2" className="form-control" 
+                value={city2} onChange={inputChanged2}
+                 id="city2" required/>
+                </div>
+              </div>
+              
+              <div className="container" data-aos="fade-up">
+               <section id="pricing" className="pricing">
+                  <a onClick={getMatka} className="buy-btn">Demo käyntiin</a>
+                </section>
+
+              </div>
+              </form>
+              <section id="faq" className="faq section-bg">
+      <div className="container" data-aos="fade-up">
+
+        <div className="section-title">
+          <h2>Demon tulokset</h2>
+          <p>Sää ja matkatietoa alla</p>
+        </div>
+       
+        <div className="faq-list">
+          {oluet.length > 0 && (
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+               <a data-bs-toggle="collapse" className="collapsed" data-bs-target="#faq-list-1"><h3>{wCity} {textsaa}</h3> <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" className="collapse" data-bs-parent=".faq-list">
+                
+                  <p>{textlampo} {temp} {textc} </p>
+                  <p> {weather}</p>
+                  <img src={img} /> 
+                
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapsed"><h3>{wCity2} {textsaa}</h3><i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
+                
+                  <p>{textlampo} {temp2} {textc} </p>
+                  <p> {weather2}</p>
+                  <img src={img2} />
+                  
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+               <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed"> <h3>{matka}</h3><i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" className="collapse" data-bs-parent=".faq-list">
+                
+                  <p>{valimatka}</p>
+                  <p>{kesto}</p>
+                
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+               <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed"><h3>{ravitsemus}</h3><i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
+                
+                  <p>{kalorit}</p>
+                  <p>{oluet}</p>
+                  <p>{hiili}</p>
+                
+              </div>
+            </li>
+
+          </ul>
+          
+  )}     
+        </div>
+
+      </div>
+    </section>
+          </div>
+         );
+      };
+
+      ReactDOM.render(<Weather />, document.getElementById("root"));
+    </script>
+            
+        </div>
+
+      </div>
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Tilaa uutiskirje</h4>
+            <p>Pidämme sinut tietoisena uusista päivityksistä ja ominaisuuksista</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>VSOM</h3>
+            <p>
+              Azure cloud environment <br>
+              West europe, Zone 1,2,3<br>
+              Europe <br><br>
+              <strong>Puhelin:</strong> +123 4567 890<br>
+              <strong>Säpö:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://portal.azure.com/">Azure Portal</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/public-apis/public-apis">Public APIs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://themewagon.com/themes/free-bootstrap-5-html-5-business-website-template-arsha/#product-tab">Bootstrap Template</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://awacademy.fi/">AW Academy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://azure.microsoft.com/en-us/services/api-management/#overview">API Management</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Somekanavat</h4>
+            <p>Ei ne oikeasti meidän ole, mutta jonkun toisen kyllä (ehkä?) ja sitä voi käydä ihmettelemässä!</p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/ZelenskyyUa" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://fi-fi.facebook.com/punainenristi/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/world_record_egg/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.skype.com/en/" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="https://www.linkedin.com/feed/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    
+    
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
